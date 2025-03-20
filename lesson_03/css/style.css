@@ -1,0 +1,141 @@
+@import url("reset.css");
+
+/*#region common--------*/
+
+/* 
+p {
+  color: lightseagreen;  
+}
+
+* {
+    color: rosybrown;
+}
+
+h2 {
+    color: palevioletred;
+} */
+
+#ukraine-development {
+    color: gold;
+}
+
+[class*="cen"] {
+    color: red;
+}
+
+.title,
+.header-link {
+    color: brown;
+}
+
+.title {
+    color: green;
+}
+
+.first-title + p {
+    color: yellowgreen;
+}
+
+.first-block ~ p {
+    color: cyan;
+}
+
+.hero-block ~ div h3 + p {
+    color: yellow;
+}
+
+div p ~ p {
+    color:mediumblue;
+}
+ 
+li > p {
+    color: coral;
+}
+
+.main > a {
+    color: lime;
+}
+
+.accent {
+
+}
+
+.footer {
+}
+
+/*#endregion common--------*/
+
+/*#region header-------*/
+.header {
+}
+
+.header-navigation {
+}
+
+.header-logo {
+}
+
+.header-list {
+}
+
+.header-item {
+}
+
+.header-link {
+}
+
+/*#endregion header--------*/
+
+/*#region hero--------*/
+
+.hero-title {
+}
+
+.hero-accent {
+}
+
+.hero-block {
+}
+
+/*#endregion hero--------*/
+
+/*#region first-section--------*/
+
+.first-block {
+}
+
+.first-title {
+}
+
+.first-image {
+}
+
+.first-subtitle {
+}
+
+.first-small-image {
+}
+
+.first-list {
+}
+
+.first-item {
+}
+
+/*#endregion first-section--------*/
+
+/*#region second-section--------*/
+
+.second-block {
+}
+
+.second-image {
+}
+
+.second-up-link {
+}
+
+.second-source-link {
+}
+
+/*#endregion second-section--------*/
