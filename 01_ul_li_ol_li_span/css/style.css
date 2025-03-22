@@ -1,0 +1,40 @@
+
+body {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+ul > li {
+    color: red;
+}
+
+
+/*  or: li ~ li  */
+ul > li + li {
+    color: green;
+}
+
+ul > li > ul > li {
+    color: blue;
+}
+
+
+/*  or: li ~ li  */
+ul > li > ul > li + li {
+    color: orange;
+}
+   
+ul > li > ul > li > ol > li {
+    color: #4597f7;
+}
+
+
+/*  or: li ~ li */
+ul > li > ul > li > ol > li + li {
+    color: #5d5d5d;
+}
+
+ul > li > ul > li > span {
+    color: #a0f0fc;
+}
