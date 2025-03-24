@@ -1,0 +1,163 @@
+@import url("fonts.css");
+
+@import url(https://fonts.googleapis.com/css?family=Funnel+Sans:regular,300italic);
+
+/*#region common--------*/
+
+.html {
+    font-size: 1rem;
+}
+
+.body {
+    font-family: "Poppins", sans-serif;
+}
+
+/*#endregion common--------*/
+
+/*#region header-------*/
+
+.header-logo {
+    font-family: "Snell-BT", cursive;
+    font-size: 3rem;
+    color: rgb(7, 7, 199);
+    font-weight: bold;
+    text-shadow: 0.5rem 0.5rem 1rem blue;
+    text-indent: 2rem;
+    letter-spacing: 0.5rem;
+    line-height: 1.12;
+}
+
+.header-span {
+    color: gold;
+}
+
+.header-link {
+    font-family: "KoPub Batang", serif;
+    color: blue;
+    font-weight: normal;
+    font-size: inherit;
+    line-height: 1.5;
+}
+
+/*#endregion header--------*/
+
+/*#region hero--------*/
+
+.hero-title {
+    font-family: "Dancing Script", cursive;
+    font-style: oblique;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color:rgb(7, 7, 199);
+    text-align: center;
+    text-shadow: 0.7rem 0.7rem 1rem rgba(4, 4, 94, 0.993);
+}
+
+.hero-block > p {
+    font-family: "KoPub Batang", serif;
+    font-size: inherit;
+    font-weight: 300;
+    color: rgb(61, 8, 61);
+}
+
+/*#endregion hero--------*/
+
+/*#region first-section--------*/
+
+.first-title {
+    font-family: inherit;
+    font-size: 2rem;
+    line-height: 1.37;
+    color:teal;
+}
+
+.first-subtitle {
+    font-family: serif;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+.hero-block ~ p {
+    font-family: "Battling NP", sans-serif;
+    font-size: 1.125rem;
+    color:darkgreen;
+}
+
+.first-item > p {
+    font-family: "Funnel Sans", sans-serif;
+    color: olivedrab;
+    font-size: 1.125rem;
+    font-style: italic;
+    font-weight: inherit;
+    font-weight: 300;
+}
+
+.block > p {
+    font-family: "Funnel Sans", sans-serif;
+    font-size: 1.0625rem;
+    font-weight: 400;
+    color: cyan;
+}
+
+/*#endregion first-section--------*/
+
+/*#region second-section--------*/
+
+.second-title {
+    font-family: inherit;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.3rem;
+    word-spacing: 1rem;
+    color: darkblue;
+    text-shadow: -0.5rem 0.5rem 0.5rem  rgba(255, 217, 0, 0.918);
+    line-height: 1.25;
+    text-indent: 2rem;
+}
+
+.second-block > p {
+    font-family: "Allura", cursive;
+    font-size: 1.25rem;
+}
+
+.second-up-link {
+    font-family: "KoPub Batang", serif;
+    font-size: 1.5rem;
+    color:rgba(4, 4, 94, 0.993);
+    line-height: 2rem;
+    font-style: oblique;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+.second-source-link {
+    font-family: "Dancing Script", cursive;
+    text-transform: uppercase;
+    color:rgb(61, 8, 61);
+    letter-spacing: 0.3em;
+    line-height: 2rem;
+    text-shadow: -0.3rem -0.3rem 0.5rem blue;
+}
+
+/*#endregion second-section--------*/
+
+/*#region third-section--Yevgen's task------*/
+
+.third-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: #1a1a1a;
+}
+
+.third-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.125em;
+    color: #808080;
+    line-height: 1.5;
+}
+
+/*#endregion third-section--Yevgen's task------*/
