@@ -1,6 +1,6 @@
 
 @font-face {
-    font-family: "Circular Std", sans-serif;
+    font-family: "Circular Std";
     src: url(../fonts/CircularStd-Medium.woff2);
     font-weight: 450;
     font-style: normal;
@@ -8,7 +8,7 @@
 }
 
 @font-face {
-    font-family: "Circular Std", sans-serif;
+    font-family: "Circular Std";
     src: url(../fonts/FontsFree-Net-CircularStd-Bold.woff2);
     font-weight: 700;
     font-style: normal;
