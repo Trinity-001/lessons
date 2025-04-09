@@ -1,0 +1,250 @@
+@import url(fonts.css);
+
+/* #region common */
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.wrapper {
+    overflow: clip;
+    min-height: 100%;
+    background-color: #412672;
+}
+
+.main h1{
+    display: none;
+}
+
+/* #endregion common */
+
+/* #region header */
+
+.header {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.header a {
+    font-weight: 700;
+    min-width: 100px;
+    font-size: 20px;
+    padding: 15px;
+    color:darkviolet;
+    border: 1px solid violet;
+    text-align: center;
+    background-color: violet;
+    border-radius: 40px;
+}
+
+.header a:hover {
+    color:blueviolet;
+    background-color:purple;
+}
+
+/* #endregion header */
+
+/* #region hero */
+
+
+.container-hero {
+    max-width: 1231px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 61px;
+    padding-bottom: 102px;
+    margin-bottom: 50px;
+   
+}
+
+.hero-title {
+    font-size: 38px;
+    color: #fff;
+    max-width: 505px;
+    margin-bottom: 31px;
+}
+
+.hero-span {
+    font-weight: 700;
+}
+
+.hero-list * {
+    margin-bottom: 16px;
+}
+
+.hero-item {
+    display: inline-block;
+    max-width: 387px;
+    min-height: 476px;
+    padding: 20px;
+    box-shadow: 0 15px 34px 0 rgba(0, 0, 0, 0.1), 0 62px 62px 0 rgba(0, 0, 0, 0.09), 0 138px 83px 0 rgba(0, 0, 0, 0.05), 0 246px 98px 0 rgba(0, 0, 0, 0.01), 0 384px 108px 0 rgba(0, 0, 0, 0);
+    background-color: #fff;
+    vertical-align: top;
+    transition: all 500ms ease-in-out;
+    margin-left: -5px;
+}
+
+.hero-item:not(:last-child) {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.hero-item:hover {
+    box-shadow: 0 15px 34px 0 rgba(0, 0, 0, 0.1), 0 62px 62px 0 rgba(0, 0, 0, 0.09), 0 138px 83px 0 rgba(0, 0, 0, 0.05), 0 246px 98px 0 rgba(0, 0, 0, 0.01), 0 384px 108px 0 rgba(0, 0, 0, 0);
+    background: #ffbe48;
+}
+
+.hero-image {
+    
+    max-width: 347px;
+    height: 100%;
+    margin-bottom: 16px;
+}
+
+.hero-subtitle {
+    font-weight: 600;
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 16px;
+}
+
+.hero-item > p {
+    min-height: 78px;
+    font-size: 15px;
+    line-height: 1.27;
+    color: #4f4f4f;
+    margin-bottom: 16px;
+}
+
+.hero-link {
+    font-size: 15px;
+    line-height: 1.26667;
+    color: #fe3f3f;
+    margin-top: auto;
+}
+
+.hero-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.hero-item > *:last-child {
+    margin-bottom: 0;
+}
+
+/* #endregion hero */
+
+/* #region first */
+
+.page-first {
+   background-color: #fff;
+   margin-bottom: 20px;
+}
+
+.page-first *{
+    margin-bottom: 20px;
+}
+
+.container-first {
+    padding: 30px 15px;
+    max-width: 548px;
+    margin: 0 auto;
+}
+
+h2 + p {
+    font-size: 22px;
+    color: #412672;
+    margin-bottom: 20px;
+}
+
+.title {
+    max-width: 518px;
+    color: #412672; 
+    margin-bottom: 20px;
+    font-size: 34px;
+}
+
+.first-item {
+    margin-bottom: 0;
+}
+
+.first-item > p {
+    font-size: 20px;
+    line-height: 2.55;
+    color: #4f4f4f;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 44px;
+}
+
+.first-item > p::before {
+    content: "";
+    background-image: url(../img/Frame.svg);
+    background-position: 0 4px;
+    background-repeat: no-repeat;
+    min-width: 29px;
+    min-height: 29px;
+    margin-right: 15px;
+    margin-left: -44px;
+}
+
+.page-first *:last-child {
+    margin-bottom: 0;
+}
+
+/* #endregion first */
+
+/* #region second */
+
+.second-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.second-list {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.second-list > li {
+    padding: 10px;
+    min-width: 60px;
+    background-color: rgba(118, 231, 225, 0.774);
+    border: 1px dotted blue;
+    text-align: center;
+}
+
+.second-list > li:hover {
+    background-color: lightskyblue;
+}
+
+.second-list > li:active {
+    background-color: rgb(10, 152, 240);;
+}
+
+.second-list > li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.secondary-list {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.secondary-list > li {
+    padding: 10px;
+    min-width: 60px;
+    background-color: rgba(100, 180, 89, 0.87);
+    border: 1px dotted rgb(56, 129, 7);
+    text-align: center;
+}
+
+.secondary-list > li:nth-child(even) {
+    background-color: rgba(93, 134, 86, 0.87);
+}
+
+/* #endregion second */
