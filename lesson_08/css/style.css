@@ -1,0 +1,118 @@
+@import url(fonts.css);
+
+/* #region common */
+
+body {
+    background-color: rgba(139, 221, 241, 0.486);
+}
+
+.wrapper {
+    overflow: clip;
+    min-height: 100%;
+}
+
+.container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* #endregion common */
+
+/* #region header */
+
+header {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.header-logo {
+    max-width: 200px;
+    height: auto;
+}
+
+header a {
+    min-width: 60px;
+    height: auto;
+    padding: 10px;
+    border: 1px solid rgb(164, 4, 204);
+    border-radius: 20px;
+    background-color: #db75f0;
+    transition: background-color 300ms ease-in-out;
+}
+
+header a:hover {
+    background-color: #a029b8;
+}
+
+
+
+/* #endregion header */
+
+/* #region hero */
+
+p {
+    display: inline-block;
+}
+
+.container > div {
+    width: 800px;
+    height: auto;
+    border: 1px solid yellowgreen;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: rgba(80, 40, 226, 0.418);
+}
+
+.container > div:first-child > img {
+    width: 357px;
+}
+
+.container div:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+div > img {
+    width: 47px;
+    height: auto;
+    /* margin-right: 10px; */
+}
+
+.raster-img {
+    width: 768px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+img + p {
+    color: #fff020;
+    font-size: 20px;
+}
+
+picture + p {
+    color: #fff020;
+    font-size: 20px; 
+}
+
+.border-img {
+    width: 557px;
+    height: 549px;
+    border-radius: 150px 0;
+}
+
+.shadow-img {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* #endregion hero */
+
+/* #region first */
+
+
+
+/* #endregion first */
+
+/* #region second */
+
+
+/* #endregion second */
